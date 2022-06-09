@@ -1,5 +1,5 @@
 function [EL,ELg,ALc,ALcs,GDPcurrent,GDPcorrect,ExVar,IX_orig,IX_1st,IX_1gdp,collinearity,RMSE]=singleComplexDashboard_hilbertPCA(country);
-%  Complex PCA estiation of indicators 
+%  Matlab code, Complex PCA estiation of indicators 
 
 %% IMPORT 42 indicators for 21 years
     [IndexTable]=OECDindicators(country); % Loading the indicators from OECD 
